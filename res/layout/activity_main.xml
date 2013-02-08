@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <TextView
+        android:id="@+id/label1"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="15dp"
+        android:textColor="#3F6826"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Featured Logo:" />
+
+    <ImageView
+        android:id="@+id/logo1"
+               android:layout_below="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" 
+        android:src="@drawable/ic_launcher" />
+    
+    <TextView
+        android:id="@+id/text1"
+        android:layout_below="@+id/logo1"
+        android:layout_alignParentRight="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="15dp"
+        android:textColor="#EEC900"
+        android:background="#008080"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+</RelativeLayout>
